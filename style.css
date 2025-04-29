@@ -207,10 +207,33 @@ section p {
   background-color: #f0f8ff;
   padding: 2%;
 }
+.samples {
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
 
+.samples a {
+  padding: 0;
+  border: none;
+}
 .sample {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  filter: brightness(0.6);
+  transition: 0.75s;
+}
+
+.sample:hover {
+  filter: brightness(1);
 }
 
 .sample1 {
