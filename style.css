@@ -292,6 +292,31 @@ li:hover {
   cursor: pointer;
 }
 
+.experience {
+  font-size: 3rem;
+  align-self: center;
+}
+
+.coding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.coding span {
+  background-color: #00000059;
+  padding: 2% 4%;
+  border-radius: 10px;
+  transition: 0.75s;
+}
+
+.coding span:hover {
+  filter: invert(1);
+  cursor: pointer;
+}
+
 footer span {
   font-style: italic;
 }
